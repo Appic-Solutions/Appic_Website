@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "./responsive.css";
+@import './default.css';
+
 /*
   Theme Name: IKO - ICO & Crypto Landing Page Template
   Support: themegenix@gmail.com
@@ -3535,11 +3539,11 @@ label {
     line-height: 1.2857;
 }
 .hero-text {
-    color: var(--tg-white);
-    font-size: 70px;
-    font-weight: 400;
-    margin-top: 30px;
-    line-height: 1.6;
+  color: var(--tg-white);
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+  line-height: 1.6;
 
 }
 @media (max-width: 1399px) {
