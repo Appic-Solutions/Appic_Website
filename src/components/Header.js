@@ -8,13 +8,13 @@ const Header = () => {
                         <div class="menu-wrap">
                             <nav class="menu-nav">
                                 <div class="logo">
-                                    <a href="index.html"><img src="images/logo.png" style={{height: "35px"}} alt="Logo" /></a>
+                                    <a href="index.html"><img src="./assets/images/logo.png"  alt="Logo" width={35} height={25} /></a>
                                 </div>
                                 <div class="navbar-wrap main-menu d-none d-lg-flex">
                                     <ul class="navigation">
                                         <li class="active menu-item-has-children"><a class="section-link" href="#header">Home</a>
                                             <ul class="sub-menu">
-                                                <li class="active"><a href="index.html">ICO Investment</a></li>
+                                                <li class="active"><a href="index.html">Investment</a></li>
                                                 <li><a href="index-2.html">Blockchain</a></li>
                                             </ul>
                                         </li>

@@ -24,46 +24,59 @@ const RoadMapSection = () => {
               <div class="row roadMap-active2 roadmap-slider1">
                   <div class="col-lg-4">
                       <div class="roadmap-item">
-                          <span class="roadmap-title">End of Q4 2021</span>
+                          <span class="roadmap-title">End of Q1 2024</span>
                           <div class="roadmap-content">
-                              <h4 class="title"><span class="dot"></span>Research</h4>
-                              <p>SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations</p>
+                              <h4 class="title"><span class="dot"></span>AppIC DeFi ( Auto Invest )</h4>
+                              <p>- User Interface development </p>
+                              <p>- Design and develop functionality canister</p>
+                              <p>- Integrating, Testing and deployment of frontend and backend canister</p>
                           </div>
                       </div>
                   </div>
                   <div class="col-lg-4">
                       <div class="roadmap-item">
-                          <span class="roadmap-title">End of Q4 2021</span>
+                          <span class="roadmap-title">End of Q 2024</span>
                           <div class="roadmap-content">
-                              <h4 class="title"><span class="dot"></span>App Beta Test</h4>
-                              <p>SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations</p>
+                              <h4 class="title"><span class="dot"></span>AppIC Governance & Terminal</h4>
+                              <p>- Initiate AppIC DAO SNS</p>
+                              <p>- Cross Chain Communication & Minting Canister development and integration with EVM RPC Canister for native tokens
+</p>
+                              <p>- Helper Smart Contract Development and Testing on EVM compatible chains on Testnet</p>
                           </div>
                       </div>
                   </div>
                   <div class="col-lg-4">
                       <div class="roadmap-item">
-                          <span class="roadmap-title">End of Q4 2021</span>
+                          <span class="roadmap-title">End of Q3 2024</span>
                           <div class="roadmap-content">
-                              <h4 class="title"><span class="dot"></span>Token Test</h4>
-                              <p>SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations</p>
+                              <h4 class="title"><span class="dot"></span>AppIC Terminal </h4>
+                              <p>- UI Design and development </p>
+<p>- Testing the event logs and on chain transaction verification</p>
+<p>- Testing the backend functionality of AppIC Terminal by transferring native token from EVM chain to IC</p>
+<p>- Deployment and Auditing</p>
                           </div>
                       </div>
                   </div>
                   <div class="col-lg-4">
                       <div class="roadmap-item">
-                          <span class="roadmap-title">End of Q4 2021</span>
+                          <span class="roadmap-title">End of Q4 2024</span>
                           <div class="roadmap-content">
-                              <h4 class="title"><span class="dot"></span>Alpha Test</h4>
-                              <p>SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations</p>
+                              <h4 class="title"><span class="dot"></span>AppIC Swap (1st Phase) </h4>
+                              <p>- Swap between Non IC tokens to ICP tokens and vice versa</p>
+<p>- Dex integration for AppIC Swap</p>
+<p>- User Interface development</p>
+<p>- Testing, auditing and deployment of AppIC Swap</p>
                           </div>
                       </div>
                   </div>
-                  <div class="col-lg-4">
+                  <div class="col-lg-4 ">
                       <div class="roadmap-item">
-                          <span class="roadmap-title">End of Q4 2021</span>
+                          <span class="roadmap-title">End of Q1 2025</span>
                           <div class="roadmap-content">
-                              <h4 class="title"><span class="dot"></span>Concept</h4>
-                              <p>SubQuery Builders/Grants Program SQT Network contract internal MVP Coordinator and client SDK implementations</p>
+                              <h4 class="title"><span class="dot"></span>AppIC Swap (2nd Phase)</h4>
+                              <p>- Development for swapping between Non IC tokens to Non IC ICP tokens</p>
+                              <p>- Testing and auditing of canisters</p>
+                              <p>- Deployment</p>
                           </div>
                       </div>
                   </div>

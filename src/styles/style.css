@@ -4,7 +4,13 @@
 
 @import "./responsive.css";
 @import './default.css';
-
+@layer components {
+  .before\:blur::before {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+    backdrop-filter: var(--tw-backdrop-blur);
+  }
+}
 /*
   Theme Name: IKO - ICO & Crypto Landing Page Template
   Support: themegenix@gmail.com
@@ -3999,7 +4005,7 @@ label {
     border-radius: 15px;
     background: var(--tg-black2);
     max-width: 570px;
-    min-height: 206px;
+    height: 260px;
     margin-left: auto;
     display: flex;
     padding: 40px;
@@ -4018,7 +4024,7 @@ label {
     }
   }
   .feature-card-details {
-    max-width: 220px;
+    max-width: 320px;
     margin-bottom: -0.4em;
   }
   .feature-card-icon {
@@ -4113,7 +4119,7 @@ label {
 /* Roadmap 2 ---------------------------------- */
 .roadmap-slider1 {
     max-width: 1870px;
-    margin-right: -255px;
+    /* margin-right: -255px; */
     margin-left: auto;
 }
 .roadMap-active2 .col-lg-4 {
@@ -4122,25 +4128,25 @@ label {
   @media (min-width: 1922px) {
     .roadmap-slider1 {
       max-width: 2114px;
-      margin-right: -180px;
+      margin-right: 0px;
     }
   }
   @media (max-width: 1700px) {
     .roadmap-slider1 {
-      margin-right: -370px;
+      margin-right: 0px;
     }
   }
   @media (max-width: 1500px) {
     .roadmap-slider1 {
       margin-left: 55px;
-      margin-right: -440px;
+      margin-right: 0px;
     }
   }
   @media (max-width: 1399px) {
     .roadmap-slider1 {
       max-width: 1388px;
       margin-left: 20px;
-      margin-right: -180px;
+      margin-right: 0px;
     }
   }
   @media (max-width: 1299px) {
