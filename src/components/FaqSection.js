@@ -21,13 +21,13 @@ const FaqSection = () => {
                             <div className="accordion-card">
                                 <div className="accordion-header" id="headingOne">
                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <span className="number">1</span> What is AppIC Transfer and how does it work?
+                                        <span className="number">1</span> What is AppIC Terminal and how does it work?
                                     </button>
                                 </div>
                                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                                     <div className="accordion-body">
                                         <p className="faq-text">
-                                            AppIC Transfer is a cutting-edge protocol that allows you to move assets across various networks including major blockchains and Layer 2 solutions with ease and high security, all on the Internet Computer platform.
+                                            AppIC Terminal is a cutting-edge protocol that allows you to move assets across various networks including major blockchains and Layer 2 solutions with ease and high security, all on the Internet Computer platform.
                                         </p>
                                     </div>
                                 </div>

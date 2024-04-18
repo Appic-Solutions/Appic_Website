@@ -12,9 +12,10 @@ function Intro() {
               <MotionWrapper tagName="h2" direction="bottomToTop" className="title style2">
                 Unlocking DeFi's Potential with AppIC DAO
               </MotionWrapper>
-              <MotionWrapper tagName="p" direction="bottomToTop" className="sec-text">
+              <MotionWrapper tagName="p" direction="bottomToTopx" className="sec-text">
   Seamlessly bridge any blockchain with Internet Computer, facilitating frictionless asset transfers.
 </MotionWrapper>
+<img src="./assets/images/Appic_dao.png" alt="AppIC Visual" />
             </div>
 
           </div>

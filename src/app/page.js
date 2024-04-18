@@ -4,6 +4,7 @@ import FeatureSection from '../components/FeatureSection';
 import RoadMapSection from '../components/RoadMapSection';
 import FaqSection from '../components/FaqSection';
 import Intro from '../components/Intro';
+import Tokenomics from '@/components/Tokenomics';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <FeatureSection />
       <Intro />
+      <Tokenomics />
       <RoadMapSection />
       <FaqSection />
     </Layout>

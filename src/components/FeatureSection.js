@@ -39,7 +39,7 @@ const FeatureSection = () => {
                             Discover the gateway to seamless interoperability between Layer 2 Ethereum and the Internet Computer.
                           </p>
                       </div>
-                  </div>
+                  </div>   
               <div className="col-lg-5">
                       <div className="wcu-thumb text-center alltuchtopdown">
                           <img src="images/why_1-1.png" alt="Appic Protocol" />
@@ -65,7 +65,7 @@ const FeatureSection = () => {
         </div> */}
         <div className="feature-card-details text-center">
           <h4 className="feature-card-title text-white text-xl font-bold mb-2">
-          AppIC Transfer
+          AppIC Terminal
           </h4>
           <p className="feature-card-text text-white">
           It enables the transfer of any asset across any network, including major blockchains such as Ethereum and Solana, as well as various Layer 2 solutions such as Base, Arbitrum and zkSync to IC network. 
@@ -76,7 +76,9 @@ const FeatureSection = () => {
     </div>
      <div className="col-md-7" >
 
-     
+     <div className="wcu-thumb text-center alltuchtopdown">
+                          <img src="./assets/images/Appic_Terminal.png" alt="Appic Protocol" />
+                      </div>
 
               </div>
            
@@ -85,7 +87,9 @@ const FeatureSection = () => {
           
      <div className="col-md-7 " >
 
-     
+     <div className="wcu-thumb text-center alltuchtopdown">
+     <img src="./assets/images/Appic_Terminal.png" alt="Appic Protocol" />
+                      </div>
 
               </div>
               <div className="col col-md-5">
@@ -146,7 +150,9 @@ AppIC Swap offers a pioneering protocol for easy and secure asset transfers acro
      <div className="col-md-7" >
 
      
-
+     <div className="wcu-thumb text-center ">
+     <img src="./assets/images/Appic_Swap.png" alt="Appic Protocol" />
+                      </div>
               </div>
            
           </div>
