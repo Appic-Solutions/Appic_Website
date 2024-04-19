@@ -42,7 +42,7 @@ const FeatureSection = () => {
                   </div>   
               <div className="col-lg-5">
                       <div className="wcu-thumb text-center alltuchtopdown">
-                          <img src="images/why_1-1.png" alt="Appic Protocol" />
+                          {/* <img src="images/why_1-1.png" alt="Appic Protocol" /> */}
                       </div>
              </div>
               </div>
@@ -57,7 +57,7 @@ const FeatureSection = () => {
       variants={cardVariants}
     >
       {/* This div creates the glow effect on the border */}
-      <div className="absolute inset-0 bg-gradient-to-r from-indigo-900 via-transparent to-indigo-500 blur-none opacity-75 "></div>
+      <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
       <div className="relative z-10 rounded-lg flex flex-col items-center ">
         {/* Content here */}
         {/* <div className="feature-card-icon mb-4">
@@ -77,7 +77,7 @@ const FeatureSection = () => {
      <div className="col-md-7" >
 
      <div className="wcu-thumb text-center alltuchtopdown">
-                          <img src="./assets/images/Appic_Terminal.png" alt="Appic Protocol" />
+                          {/* <img src="./assets/images/Appic_Terminal.png" alt="Appic Protocol" /> */}
                       </div>
 
               </div>
@@ -88,7 +88,7 @@ const FeatureSection = () => {
      <div className="col-md-7 " >
 
      <div className="wcu-thumb text-center alltuchtopdown">
-     <img src="./assets/images/Appic_Terminal.png" alt="Appic Protocol" />
+     {/* <img src="./assets/images/Appic_Terminal.png" alt="Appic Protocol" /> */}
                       </div>
 
               </div>
@@ -101,7 +101,7 @@ const FeatureSection = () => {
       variants={cardVariants}
     >
       {/* This div creates the glow effect on the border */}
-      <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-indigo-900 via-transparent to-indigo-500 blur-none opacity-75"></div>
+      <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
       <div className="relative z-10 flex flex-col items-center">
         {/* Content here */}
         {/* <div className="feature-card-icon mb-4">
@@ -129,7 +129,7 @@ const FeatureSection = () => {
       variants={cardVariants}
     >
       {/* This div creates the glow effect on the border */}
-      <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-indigo-900 via-transparent to-indigo-500 blur-none opacity-75"></div>
+      <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
       <div className="relative z-10 flex flex-col items-center">
         {/* Content here */}
         {/* <div className="feature-card-icon mb-4">
@@ -151,7 +151,7 @@ AppIC Swap offers a pioneering protocol for easy and secure asset transfers acro
 
      
      <div className="wcu-thumb text-center ">
-     <img src="./assets/images/Appic_Swap.png" alt="Appic Protocol" />
+     {/* <img src="./assets/images/Appic_Swap.png" alt="Appic Protocol" /> */}
                       </div>
               </div>
            

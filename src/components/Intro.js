@@ -6,15 +6,15 @@ function Intro() {
   return (
     <div className=" overflow-hidden pt-28 bg-black2  ">
       <div className="container ">
-        <div className="row justify-center  ">
-          <div className="col-xl-10 bg-gray-900 pt-20 rounded-xl ">
+        <div className="row justify-center ">
+          <div className="col-xl-10 bg-gray-900 pt-20 rounded-xl invest-card ">
             <div className="section-title mb-45 text-center">
-              <MotionWrapper tagName="h2" direction="bottomToTop" className="title style2">
-                Unlocking DeFi's Potential with AppIC DAO
-              </MotionWrapper>
-              <MotionWrapper tagName="p" direction="bottomToTopx" className="sec-text">
+              {/* <MotionWrapper tagName="h2" direction="bottomToTop" className="title style2">
+                Unlock DeFi's Potential with AppIC DAO
+              </MotionWrapper> */}
+              {/* <MotionWrapper tagName="p" direction="bottomToTopx" className="sec-text">
   Seamlessly bridge any blockchain with Internet Computer, facilitating frictionless asset transfers.
-</MotionWrapper>
+</MotionWrapper> */}
 <img src="./assets/images/Appic_dao.png" alt="AppIC Visual" />
             </div>
 
