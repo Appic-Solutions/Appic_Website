@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <Layout>
       <HeroSection />
-      <FeatureSection />
       <Intro />
+      <FeatureSection />
       <Tokenomics />
       <RoadMapSection />
       <FaqSection />

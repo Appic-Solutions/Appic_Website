@@ -8,7 +8,7 @@ const Header = () => {
                         <div class="menu-wrap">
                             <nav class="menu-nav">
                                 <div class="logo">
-                                    <a href="index.html"><img src="./assets/images/logo.png"  alt="Logo" width={35} height={25} /></a>
+                                    <a href="index.html"><img src="./assets/images/logo.png"  alt="Logo" width={105} height={105} /></a>
                                 </div>
                                 <div class="navbar-wrap main-menu d-none d-lg-flex">
                                     <ul class="navigation">

@@ -23,7 +23,7 @@ const FeatureSection = () => {
   return (
     <div className="wcu-area-1 pt-130 pb-40 position-relative" id="feature">
       <div className="bg-gradient-1">
-          <img src="./assets/images/bg-gradient1-1.jpg" alt="Background" />
+          {/* <img src="./assets/images/bg-gradient1-1.png" alt="Background" /> */}
       </div>
       <div className="container">
           <div className="mb-25">
@@ -57,7 +57,7 @@ const FeatureSection = () => {
       variants={cardVariants}
     >
       {/* This div creates the glow effect on the border */}
-      <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+      <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
       <div className="relative z-10 rounded-lg flex flex-col items-center ">
         {/* Content here */}
         {/* <div className="feature-card-icon mb-4">
@@ -101,7 +101,7 @@ const FeatureSection = () => {
       variants={cardVariants}
     >
       {/* This div creates the glow effect on the border */}
-      <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+      <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
       <div className="relative z-10 flex flex-col items-center">
         {/* Content here */}
         {/* <div className="feature-card-icon mb-4">
@@ -129,7 +129,7 @@ const FeatureSection = () => {
       variants={cardVariants}
     >
       {/* This div creates the glow effect on the border */}
-      <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+      <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
       <div className="relative z-10 flex flex-col items-center">
         {/* Content here */}
         {/* <div className="feature-card-icon mb-4">
