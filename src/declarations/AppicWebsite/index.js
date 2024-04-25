@@ -10,7 +10,8 @@ export { idlFactory } from "./AppicWebsite.did.js";
  * beginning in dfx 0.15.0
  */
 export const canisterId =
-  process.env.CANISTER_ID_APPICWEBSITE;
+  process.env.CANISTER_ID_APPICWEBSITE ||
+  process.env.APPICWEBSITE_CANISTER_ID;
 
 export const createActor = (canisterId, options = {}) => {
   const agent = options.agent || new HttpAgent({ ...options.agentOptions });
