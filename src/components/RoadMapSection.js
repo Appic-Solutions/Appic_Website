@@ -8,7 +8,7 @@ const RoadMapSection = () => {
           <div class="row justify-content-between">
               <div class="col-lg-6 col-sm-8">
                   <div class="section-title mb-50">
-                      <h2 class="title style2">Our Roadmap</h2>
+                      <h2 class="title ">Our Roadmap</h2>
                   </div>
               </div>
               <div class="col-sm-auto">

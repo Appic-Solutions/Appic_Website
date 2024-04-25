@@ -31,7 +31,7 @@ const FeatureSection = () => {
                   <div className="col-lg-7">
                       <div className="section-title mb-0">
                           {/* <h2 className="title style2">Why Choose Appic Protocol?</h2> */}
-                          <MotionWrapper tagName="h2" direction="bottomToTop" className="title style2">
+                          <MotionWrapper tagName="h2" direction="bottomToTop" className="title  title-gradient">
       Why Choose Appic Protocol?
     </MotionWrapper>
 
@@ -57,7 +57,7 @@ const FeatureSection = () => {
       variants={cardVariants}
     >
       {/* This div creates the glow effect on the border */}
-      <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+     
       <div className="relative z-10 rounded-lg flex flex-col items-center ">
         {/* Content here */}
         {/* <div className="feature-card-icon mb-4">
@@ -94,14 +94,14 @@ const FeatureSection = () => {
               </div>
               <div className="col col-md-5">
               <motion.div 
-      className="relative p-6 bg-gray-800 bg-opacity-50 rounded-lg overflow-hidden shadow-lg"
+      className="relative p-6 bg-opacity-50 rounded-lg overflow-hidden shadow-lg"
       initial="offscreen" 
       whileInView="onscreen" 
       viewport={{ once: true, amount: 0.5 }} 
       variants={cardVariants}
     >
       {/* This div creates the glow effect on the border */}
-      <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+  
       <div className="relative z-10 flex flex-col items-center">
         {/* Content here */}
         {/* <div className="feature-card-icon mb-4">
@@ -122,14 +122,13 @@ const FeatureSection = () => {
           <div className="row gy-5 justify-content-between mb-40">
               <div className="col col-md-5">
               <motion.div 
-      className="relative p-6 bg-gray-800 bg-opacity-50 rounded-lg overflow-hidden shadow-lg"
+      className="relative p-6  bg-opacity-50 rounded-lg overflow-hidden shadow-lg"
       initial="offscreen" 
       whileInView="onscreen" 
       viewport={{ once: true, amount: 0.5 }} 
       variants={cardVariants}
     >
       {/* This div creates the glow effect on the border */}
-      <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
       <div className="relative z-10 flex flex-col items-center">
         {/* Content here */}
         {/* <div className="feature-card-icon mb-4">

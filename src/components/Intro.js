@@ -4,10 +4,10 @@ import MotionWrapper from './HigherComponent/MotionWrapper';
 
 function Intro() {
   return (
-    <div className=" overflow-hidden pt-28 bg-black2  ">
+    <div className=" overflow-hidden pt-28   ">
       <div className="container ">
         <div className="row justify-center ">
-          <div className="col-xl-10 bg-gray-900 pt-20 rounded-xl invest-card ">
+          <div className="col-xl-10 bg-gray-900 gradient-border p-4 relative  rounded-lg shadow  invest-card ">
             <div className="section-title mb-45 text-center">
               {/* <MotionWrapper tagName="h2" direction="bottomToTop" className="title style2">
                 Unlock DeFi's Potential with AppIC DAO
