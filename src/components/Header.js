@@ -2,7 +2,7 @@ const Header = () => {
     return (
         <header id="header" class="header-layout1">
         <div id="sticky-header" class="menu-area transparent-header">
-            <div class="container custom-container">
+            <div class="container ">
                 <div class="row">
                     <div class="col-12">
                         <div class="menu-wrap">
@@ -19,15 +19,15 @@ const Header = () => {
                                             </ul>
                                         </li>
                                         <li><a href="#feature" class="section-link">Feature</a></li>
+                                        <li><a href="#tokenomics" class="section-link">Tokenomics</a></li>
                                         <li><a href="#roadMap" class="section-link">RoadMap</a></li>
-                                        <li class="menu-item-has-children"><a href="#">White Paper</a>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="#faq" class="section-link">FAQ</a></li>
+                                        <li><a href="#faq">Contact</a></li>
                                     </ul>
                                 </div>
-                                <div class="header-action">
+                                {/* <div class="header-action">
                                     <ul class="list-wrap">
-                                        {/* <li>
+                                        <li>
                                             <div class="dropdown-link">
                                                 <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown" aria-expanded="false">ENG</a>
                                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
@@ -40,10 +40,10 @@ const Header = () => {
                                                     </li>
                                                 </ul>
                                             </div>
-                                        </li> */}
+                                        </li>
                                         <li class="header-login"><a class="btn2" href="contact.html">LOGIN</a></li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
                             </nav>
                         </div>

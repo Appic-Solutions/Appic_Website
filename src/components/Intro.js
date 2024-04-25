@@ -7,15 +7,15 @@ function Intro() {
     <div className=" overflow-hidden pt-28   ">
       <div className="container ">
         <div className="row justify-center ">
-          <div className="col-xl-10 bg-gray-900 gradient-border p-4 relative  rounded-lg shadow  invest-card ">
-            <div className="section-title mb-45 text-center">
-              {/* <MotionWrapper tagName="h2" direction="bottomToTop" className="title style2">
-                Unlock DeFi's Potential with AppIC DAO
-              </MotionWrapper> */}
-              {/* <MotionWrapper tagName="p" direction="bottomToTopx" className="sec-text">
-  Seamlessly bridge any blockchain with Internet Computer, facilitating frictionless asset transfers.
+          <div className="col-xl-12 bg-gray-900 gradient-border p-4 relative  rounded-lg shadow  invest-card ">
+            <div className="section-title intro ">
+              <MotionWrapper tagName="h2" direction="bottomToTop" className="title style2 ">
+                Unlock DeFi's interoperability with AppIC DAO
+              </MotionWrapper>
+               {/* <MotionWrapper tagName="p" direction="bottomToTopx" className="sec-text">
+               It governs AppIC Terminal, AppIC DeFi, and AppIC Swap, offering users a comprehensive suite of tools and functionalities for managing digital assets, participating in decentralized finance (DeFi) activities, and facilitating cross-chain transactions.
 </MotionWrapper> */}
-<img src="./assets/images/Appic_dao.png" alt="AppIC Visual" />
+<img src="./assets/images/appic-dao.jpg" alt="AppIC Visual" />
             </div>
 
           </div>

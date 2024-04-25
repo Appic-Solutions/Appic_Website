@@ -8,8 +8,8 @@ import Tokenomics from '@/components/Tokenomics';
 
 export default function Home() {
   return (
-    <Layout>
-      <HeroSection />
+    <Layout >
+       <HeroSection />
       <Intro />
       <FeatureSection />
       <Tokenomics />

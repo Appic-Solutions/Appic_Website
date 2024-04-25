@@ -1395,14 +1395,15 @@ label {
 	09. Features
 ===============================*/
 .section-title .title {
-    background: linear-gradient(180deg,#7E2AFD  0%,var(--tg-primary-color)  100%);
+    background: linear-gradient(180deg,#b28ee7  0%,#9667dc  100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     letter-spacing: -1.5px;
 }
+
 .features-item {
     display: flex;
     align-items: center;
@@ -1646,7 +1647,7 @@ label {
 }
 .roadmap-title {
     display: block;
-    font-size: 14px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 45px;
     margin-left: 14px;
@@ -1655,11 +1656,11 @@ label {
 }
 .roadmap-content {
   border: 1px solid rgba(43 44 56 / 46%);
-  border:2px solid white ;
-  min-height: 400px;
+  border:1px solid white ;
+  min-height: 420px;
     background: var(--tg-secondary-color);
     border-radius: 15px;
-    padding: 75px 50px 65px;
+    padding: 40px 50px ;
 }
 .roadmap-content .title {
     display: flex;
@@ -3072,10 +3073,10 @@ label {
     -webkit-text-fill-color: var(--tg-secondary-color) !important;
 }
 .sec-text {
-    font-size: 18px;
-    margin-top: 30px;
+    font-size: 20px;
+    margin-top: 10px;
     line-height: 1.667;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 @media (max-width: 1299px) {
     .sec-text {
@@ -3947,8 +3948,9 @@ label {
     transform: translate(-100%, 0);
   }
 .wcu-thumb img {
-    width: 100%;
-    height: 500px;
+    /* width: 100%; */
+    height: 300px;
+    border-radius: 15px;
     object-fit: contain;
   }
 
@@ -4053,11 +4055,11 @@ label {
     transition: 0.4s;
   }
   .feature-card-title {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     letter-spacing: -0.03em;
     line-height: 1.5em;
-    margin-bottom: 18px;
+    margin-bottom: 40px;
   }
   .feature-card-text {
     margin-bottom: 5px;
@@ -4078,6 +4080,9 @@ label {
   }
 
   /* Intro Area ---------------------------------- */
+  .intro img {
+    margin-top: 15px;
+  }
 .intro-thumb1 {
     position: relative;
     text-align: center;
@@ -4131,13 +4136,17 @@ label {
 
 /* Roadmap 2 ---------------------------------- */
 .roadmap-slider1 {
-    max-width: 1870px;
+    /* max-width: 1870px; */
     /* margin-right: -255px; */
     margin-left: auto;
 }
 .roadMap-active2 .col-lg-4 {
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
+   margin-bottom: 1.5rem;
 
+}
+.roadmap-item {
+    margin-bottom: 0px;
 }
   @media (min-width: 1922px) {
     .roadmap-slider1 {
@@ -4193,6 +4202,22 @@ label {
     }
   }
 
+/*------------------- 2.00. Intro -------------------*/
+.invest-card {
+  text-align: center;
+  background: var(--tg-secondary-color2);
+  border-radius: 15px;
+  padding: 60px 60px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.invest-card img {
+ width: 100%;
+ aspect-ratio: 2/1;
+ border-radius: 15px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
 /*------------------- 4.00. Invest -------------------*/
 /* Add this inside your <style> tag or your CSS file */
 .gradient-border {
@@ -4217,7 +4242,7 @@ label {
     text-align: center;
     background: var(--tg-secondary-color2);
     border-radius: 15px;
-    padding: 70px 60px;
+    padding: 60px 60px;
     border: 1px solid rgba(255, 255, 255, 0.12);
 }
   .invest-card .invest-card-icon {
