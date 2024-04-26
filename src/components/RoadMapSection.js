@@ -48,7 +48,7 @@ const RoadMapSection = () => {
                       <div class="roadmap-item">
                           <span class="roadmap-title">Q2 2024</span>
                           <div class="roadmap-content">
-                              <h4 class="title"><span class="dot"></span>AppIC Governance & Terminal</h4>
+                              <h4 class="title"><span class="dot"></span>AppIC Governance </h4>
                               <p>- Initiate AppIC DAO SNS</p>
                               <p>- Cross Chain Communication & Minting Canister development and integration with EVM RPC Canister for native tokens
 </p>

@@ -1702,6 +1702,7 @@ label {
     background: #292A37;
 }
 .roadmap-content p {
+    font-size: 18px;
     margin-bottom: 0;
 }
 .roadMap-active .col-lg-4 {
@@ -3331,6 +3332,11 @@ label {
     color: var(--tg-white);
     border-color: var(--tg-primary-color);
 }
+.footer-logo{
+   margin: 10px 0px;
+   width: 100px  ;
+   ;
+}
 /* Header 1 ---------------------------------- */
 .header-layout1 .custom-container {
     max-width: 1692px;
@@ -4064,6 +4070,7 @@ label {
   .feature-card-text {
     margin-bottom: 5px;
     font-weight: 500;
+    font-size: 18px;
   }
   .feature-card-text:last-child {
     margin-bottom: 0;
@@ -4214,8 +4221,9 @@ label {
  width: 100%;
  aspect-ratio: 2/1;
  border-radius: 15px;
+ margin-top: 20px;
   margin: auto;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 
 /*------------------- 4.00. Invest -------------------*/
@@ -4727,7 +4735,7 @@ label {
   .accordion-card .accordion-header {
     flex: none;
   }
-  .accordion-card .accordion-button {
+  .accordion-card  .accordion-button {
     font-size: 18px;
     font-weight: 600;
     font-family: var(--tg-heading-font-family);
@@ -4802,13 +4810,16 @@ label {
     color: var(--tg-white);
   }
   .accordion-card .accordion-collapse {
-    border: none;
+  
     position: relative;
   }
-  .accordion-card .accordion-body {
+.accordion-collapse.collapse.show {
+    display: block; /* Ensures it is shown when active */
+}
+  .accordion-card .accordion-collapse .accordion-body {
     border-radius: 0;
     background-color: transparent;
-    border: none;
+    border: 0;
     padding: 0px;
     margin: 10px 35px;
   }
@@ -4816,13 +4827,14 @@ label {
     margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
+    color: var(--tg-white);
   }
   .accordion-card:last-child {
     margin-bottom: 0;
   }
 
   /* Medium devices */
-  @media (max-width: 991px) {
+  /* @media (max-width: 991px) {
     .accordion-card {
       display: block;
     }
@@ -4830,13 +4842,13 @@ label {
       margin-top: 20px;
       max-width: none;
     }
-  }
+  } */
   /* Extra small devices */
-  @media (max-width: 375px) {
+  /* @media (max-width: 375px) {
     .accordion-card .accordion-body {
       margin: 10px 0;
     }
-  }
+  } */
 
 /*footer 1************/
 .copyright-wrap {
@@ -4893,27 +4905,35 @@ label {
   .footer-menu-area {
     border-bottom: 1px solid var(--tg-white);
     padding: 0 0 57px;
+   
   }
   .footer-menu-area .footer-menu-list {
     list-style: none;
     padding: 0;
     margin: 0;
+    width:100%;
     display: inline-flex;
     flex-wrap: wrap;
-    gap: 15px 45px;
+    justify-content:space-between;
+    
+   
   }
-  .footer-menu-area .footer-menu-list li {
+  .footer-menu-area .footer-menu-list>li {
     display: inline-block;
+    font-size: 20px;
+   
+
   }
+  
   .footer-menu-area .footer-menu-list li a {
     display: block;
     position: relative;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 15px;
     font-family: var(--tg-body-font-color);
     color: var(--tg-white);
-    text-transform: uppercase;
     letter-spacing: 0.14em;
+    margin-top: 0.8rem;
   }
   .footer-menu-area .footer-menu-list li a:hover {
     color: var(--tg-primary-color);

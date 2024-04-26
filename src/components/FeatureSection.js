@@ -44,7 +44,7 @@ const FeatureSection = () => {
           
               </div>
           </div>
-          <div className="row gy-5 justify-content-between  mb-32 px-20 align-items-center ">
+          <div className="row gy-5 justify-content-between  mb-32 px-20 align-items-center " id="appic-swap">
               <div className="col col-md-5">
               <motion.div 
       className="relative  bg-opacity-50 rounded-lg overflow-hidden shadow-lg"
@@ -81,7 +81,7 @@ const FeatureSection = () => {
               </div>
            
           </div>
-          <div className="row gy-5 justify-content-between mb-32 px-20 align-items-center ">
+          <div className="row gy-5 justify-content-between mb-32 px-20 align-items-center " id="appic-terminal">
           
      <div className="col-md-7 " >
 
@@ -100,12 +100,12 @@ const FeatureSection = () => {
     >
       {/* This div creates the glow effect on the  */}
   
-      <div className="relative z-10 px-10 flex flex-col items-end">
+      <div className="relative z-10  flex flex-col items-end">
         {/* Content here */}
         {/* <div className="feature-card-icon mb-4">
           <img src="images/feature-icon1-1.svg" alt="Interoperability" />
         </div> */}
-           <div className="feature-card-details flex flex-col px-10 items-center text-justify">
+           <div className="feature-card-details flex flex-col  items-center text-justify">
           <h4 className="feature-card-title text-white text-xl font-bold mb-2">
           AppIC Terminal
           </h4>
@@ -118,7 +118,7 @@ const FeatureSection = () => {
     </motion.div>
     </div>
           </div>
-          <div className="row  gy-5 justify-content-between px-20 mb-32 align-items-center ">
+          <div className="row  gy-5 justify-content-between px-20 mb-32 align-items-center " id="appic-defi">
   <div className="col-md-5  ">
     <motion.div 
       className="relative bg-opacity-50 rounded-lg overflow-hidden shadow-lg"
